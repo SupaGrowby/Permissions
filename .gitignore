@@ -1,0 +1,72 @@
+groups:
+  default:
+    default: true
+    prefix: '&eGast&f> '
+    permissions:
+    - modifyworld.chat
+    - nametags.color.yellow
+    options:
+      rank: '1000'
+  Admins:
+    prefix: '&4Admin&f> '
+    permissions:
+    - permissions.*
+    - admincmd.*
+    - modifyworld.*
+    - nametags.color.dark_red
+    - nametags.format.italic
+    options:
+      rank: '1'
+  Moderators:
+    prefix: '&aModerator&f> '
+    permissions:
+    - permissions.*
+    - admincmd.*
+    - modifyworld.*
+    - nametags.color.green
+    - nametags.format.italic
+    options:
+      rank: '100'
+  Noobs:
+    prefix: '&bNoob&f> '
+    permissions:
+    - modifyworld.*
+    - admincmd.time.set
+    - admincmd.time.day
+    - admincmd.player.msg
+    - admincmd.player.god
+    - admincmd.player.fly
+    - admincmd.tp.home
+    - admincmd.tp.to
+    - admincmd.weather.clear
+    - admincmd.weather.storm
+    - magiccarpet.*
+    - nametags.color.aqua
+    options:
+      rank: '900'
+users:
+  SupaGrowby:
+    group:
+    - Admins
+    permissions:
+    - permissions.*
+    - admincmd.*
+   
+  jschaeck:
+    group:
+    - Moderators
+    permissions:
+    - permissions.*
+    - admincmd.*
+  garlarn:
+    group:
+    - Moderators
+    permissions:
+    - permissions.*
+    - admincmd.*
+  fynntroll2000:
+    group:
+    - Noobs
+  pro30982:
+    group:
+    - Noobs
